@@ -25,7 +25,7 @@ namespace sistema_concessionaria
                 //Verifica qual opção o usuário informou
                 switch(opcao){
                     case 1:
-                        //CadastrarCliente();
+                        CadastrarCliente();
                         break;
                     case 2:
                         //CadastrarProduto();
@@ -66,6 +66,12 @@ namespace sistema_concessionaria
                 //Caso ocorra algum erro grava no arquivo de erros
                 Log log = new Log("Main", e.Message);
             }
+        }
+
+        static void CadastrarCliente(){
+            Cliente cliente = new Cliente();
+            cliente.ObterDados();
+            cliente.Salvar(@"C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\cliente.xlsx");
         }
     }
 }

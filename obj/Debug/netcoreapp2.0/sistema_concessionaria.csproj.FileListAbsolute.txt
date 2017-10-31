@@ -1,0 +1,10 @@
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.deps.json
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.runtimeconfig.json
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.runtimeconfig.dev.json
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.dll
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.pdb
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.csproj.CoreCompileInputs.cache
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.AssemblyInfoInputs.cache
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.AssemblyInfo.cs
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.dll
+C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.pdb
