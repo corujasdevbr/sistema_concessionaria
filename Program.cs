@@ -4,6 +4,10 @@ namespace sistema_concessionaria
 {
     class Program
     {
+
+        static string ArquivoCliente = @"C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\Clientes.xlsx";
+        static string ArquivoCarro = @"C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\Carros.xlsx";
+
         static void Main(string[] args)
         {
             try
@@ -25,13 +29,14 @@ namespace sistema_concessionaria
                 //Verifica qual opção o usuário informou
                 switch(opcao){
                     case 1:
+                        //Chama metodo para cadastrar novo cliente                        
                         CadastrarCliente();
                         break;
                     case 2:
-                        //CadastrarProduto();
+                        CadastrarCarro();
                         break;
                     case 3:
-                        //RealizarVenda();
+                        RealizarVenda();
                         break;
                     case 4:
                         //ExtratoCliente();
@@ -69,9 +74,46 @@ namespace sistema_concessionaria
         }
 
         static void CadastrarCliente(){
-            Cliente cliente = new Cliente();
+            //Cria um objeto do Tipo Cliente
+            Cliente cliente = new Cliente(ArquivoCliente);
             cliente.ObterDados();
-            cliente.Salvar(@"C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\cliente.xlsx");
+            cliente.Salvar();
+        }
+
+        static void CadastrarCarro(){
+            //Cria um objeto do Tipo Carro
+            Carro carro = new Carro(ArquivoCarro);
+            carro.ObterDados();
+            carro.Salvar();
+        }
+
+        static void RealizarVenda(){
+            //Cria um objeto do Tipo Cliente
+            Cliente cliente = new Cliente(ArquivoCliente);
+            Carro carro = new Carro(ArquivoCarro);
+            string[] dadosCliente;
+            
+            Console.WriteLine("Informe o cpf do cliente");
+            string cpf = Console.ReadLine();
+
+            //Carrega os dados do cliente caso exista
+            dadosCliente = cliente.ObterDados(cpf);
+
+            //Verifica se o cliente existe
+            if(dadosCliente == null){
+                //Caso cliente não existe informa para o usuário
+                Console.WriteLine("Cpf não encontrado");
+                //Chama o metodo para cadastrar novo cliente
+                cliente.ObterDados();
+                //Salva o novo cliente
+                cliente.Salvar();
+                //Carrega os dados do novo cliente
+                dadosCliente = cliente.ObterDados(cpf);
+            }
+
+            //Retorna os carros não vendidos
+            string[] carros = carro.ListaCarros(false);
+
         }
     }
 }

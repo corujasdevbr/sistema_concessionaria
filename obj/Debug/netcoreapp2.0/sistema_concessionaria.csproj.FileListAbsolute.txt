@@ -8,3 +8,13 @@ C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionari
 C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.AssemblyInfo.cs
 C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.dll
 C:\Users\fernando.henrique\Documents\aulas_backend\semana4\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.pdb
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.deps.json
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.runtimeconfig.json
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.runtimeconfig.dev.json
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.dll
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\bin\Debug\netcoreapp2.0\sistema_concessionaria.pdb
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.csproj.CoreCompileInputs.cache
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.AssemblyInfoInputs.cache
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.AssemblyInfo.cs
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.dll
+C:\ProjetosDigipronto\visualstudiocode\sistema_concessionaria\obj\Debug\netcoreapp2.0\sistema_concessionaria.pdb

@@ -726,23 +726,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fernando.henrique\\.nuget\\packages\\": {},
+    "C:\\Users\\admin.DIGIPROD\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fernando.henrique\\Documents\\aulas_backend\\semana4\\sistema_concessionaria\\sistema_concessionaria.csproj",
+      "projectUniqueName": "C:\\ProjetosDigipronto\\visualstudiocode\\sistema_concessionaria\\sistema_concessionaria.csproj",
       "projectName": "sistema_concessionaria",
-      "projectPath": "C:\\Users\\fernando.henrique\\Documents\\aulas_backend\\semana4\\sistema_concessionaria\\sistema_concessionaria.csproj",
-      "packagesPath": "C:\\Users\\fernando.henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fernando.henrique\\Documents\\aulas_backend\\semana4\\sistema_concessionaria\\obj\\",
+      "projectPath": "C:\\ProjetosDigipronto\\visualstudiocode\\sistema_concessionaria\\sistema_concessionaria.csproj",
+      "packagesPath": "C:\\Users\\admin.DIGIPROD\\.nuget\\packages\\",
+      "outputPath": "C:\\ProjetosDigipronto\\visualstudiocode\\sistema_concessionaria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\fernando.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\admin.DIGIPROD\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
